@@ -1,0 +1,7 @@
+docker run -d \
+  --restart always \
+  --runtime nvidia\
+  --network host \
+  --name ml_jetson_container \
+  my_ml_jetson_image:latest
+
